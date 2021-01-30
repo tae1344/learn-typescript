@@ -18,5 +18,7 @@ let str: MyString = 'hello';
 
 type Todo = { id: string; title: string; done: boolean};
 function getTodo(todo: Todo){
-  
+
 }
+
+// 타입 별칭 vs 인터페이스 : 가장 큰 차이는 타입의 확장 가능 / 불가능
